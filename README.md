@@ -82,9 +82,8 @@ emphasize the concept C<sub>d</sub> clearly.
 
 To craft the poison images {x<sub>p</sub>} for the visually matching poison samples {x<sub>p</sub>,t<sub>d</sub>}, it is important that each poison image x<sub>p</sub> visually resembles x<sub>d</sub> and is similar to an image x<sub>o</sub> of the concept C<sub>o</sub> in the latent feature space. 
 This study applies the following objective for crafting poison images:
-$$
-\min_{x_p} \|F(x_p) - F(x_o)\|_2, \quad \text{s.t.} \quad \|x_p - x_d\|_\infty \leq \epsilon
-$$
+
+<img src="https://latex.codecogs.com/svg.latex?\color{red}\min_{x_p}%20\|F(x_p)%20-%20F(x_o)\|_2,%20\quad%20\text{s.t.}%20\quad%20\|x_p%20-%20x_d\|_\infty%20\leq%20\epsilon" />
 
 Where F(·) is the vision encoder of the VLM that the attacker has access to, and ϵ is the perturbation
  budget.
