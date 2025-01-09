@@ -1,6 +1,6 @@
 # [CAT3D: Create Anything in 3D with Multi-View Diffusion Models](https://arxiv.org/abs/2405.10314)
 
-Reviewer: Md. Al-Amin Sany(1905048)
+Reviewed by group 10 (1905024, 1905048, 1905052)
 
 The blog on **CAT3D: Create Anything in 3D with Multi-View Diffusion Models** provides a compelling overview of a groundbreaking method aimed at democratizing 3D content creation. Presented at NeurIPS 2024, CAT3D addresses the longstanding challenge of producing high-quality 3D models from sparse input data, utilizing a multi-view diffusion model for efficient and realistic 3D scene reconstruction.
 
